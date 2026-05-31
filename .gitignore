@@ -1,0 +1,29 @@
+# Flutter build files
+.dart_tool/
+build/
+*.lock
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.db
+
+# Environment
+.env
+
+# Model files (large files - do not upload to GitHub)
+*.pt
+*.h5
+*.pth
+*.bin
+*.ckpt
+
+# Backend specific
+backend/flask_auth/models/*.pt
+backend/flask_auth/models/*.h5
